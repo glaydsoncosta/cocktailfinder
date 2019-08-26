@@ -123,8 +123,8 @@ static navigationOptions = ({ navigation }) => ({
     } else {
       return  <View style={styles.fullWidthCenterView}>
                 <Image style={styles.emptyStateImage} source={ require('../images/cocktail_empty_state.png') }/>
-                <Text style={styles.emptyStateHeaderText}>Ops, we coudln't find any cocktail.</Text>
-                <Text style={styles.emptyStateSubtext}>Please type cocktail name in the top search bar.</Text>
+                <Text style={styles.emptyStateHeaderText}>Ops, no cocktail was found.</Text>
+                <Text style={styles.emptyStateSubtext}>Type the cocktail name in the top search bar.</Text>
               </View>
     }
   }
